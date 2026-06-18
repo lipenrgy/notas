@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NF-e DUPLICADA — Mesmo número (1234) e mesmo CNPJ emitente da nfe_valida_001.xml -->
+<!-- Deve ser detectada como AVISO de nota duplicada no lote -->
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35240611444777000161550010000012341987654320" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>19876543</cNF>
+        <natOp>Venda de Mercadoria</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <!-- MESMO NUMERO 1234 DO nfe_valida_001.xml — duplicata! -->
+        <nNF>1234</nNF>
+        <dhEmi>2024-06-18T11:45:00-03:00</dhEmi>
+        <dhSaiEnt>2024-06-18T14:00:00-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3550308</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>0</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>4.00</verProc>
+      </ide>
+      <emit>
+        <!-- MESMO CNPJ EMITENTE da nfe_valida_001.xml -->
+        <CNPJ>11444777000161</CNPJ>
+        <xNome>DISTRIBUIDORA ALFA COMERCIO LTDA</xNome>
+        <xFant>ALFA DIST</xFant>
+        <enderEmit>
+          <xLgr>Rua das Palmeiras</xLgr>
+          <nro>850</nro>
+          <xBairro>Vila Industrial</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>São Paulo</xMun>
+          <UF>SP</UF>
+          <CEP>04110000</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>1132225000</fone>
+        </enderEmit>
+        <IE>123456789012</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>22333444000181</CNPJ>
+        <xNome>TECH SOLUTIONS INFORMATICA LTDA</xNome>
+        <enderDest>
+          <xLgr>Rua do Passeio</xLgr>
+          <nro>38</nro>
+          <xBairro>Centro</xBairro>
+          <cMun>3304557</cMun>
+          <xMun>Rio de Janeiro</xMun>
+          <UF>RJ</UF>
+          <CEP>20021290</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderDest>
+        <indIEDest>1</indIEDest>
+        <IE>98765432101</IE>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>PROD-002</cProd>
+          <cEAN>7891234500001</cEAN>
+          <xProd>MONITOR LED 27" 4K HDMI USB-C</xProd>
+          <NCM>85285900</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>UN</uCom>
+          <qCom>8.0000</qCom>
+          <vUnCom>1850.0000</vUnCom>
+          <vProd>14800.00</vProd>
+          <cEANTrib>7891234500001</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>8.0000</qTrib>
+          <vUnTrib>1850.0000</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>14800.00</vBC>
+              <pICMS>12.00</pICMS>
+              <vICMS>1776.00</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>14800.00</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>96.20</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>14800.00</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>444.00</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>14800.00</vBC>
+          <vICMS>1776.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>14800.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>96.20</vPIS>
+          <vCOFINS>444.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>14800.00</vNF>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+      </transp>
+    </infNFe>
+  </NFe>
+</nfeProc>

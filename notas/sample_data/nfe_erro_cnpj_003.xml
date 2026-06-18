@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NF-e com ERRO — CNPJ do emitente inválido (dígito verificador errado) -->
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe35240699888777000166550010000009991199999990" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>99999999</cNF>
+        <natOp>Compra de Mercadoria para Revenda</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>9999</nNF>
+        <dhEmi>2024-06-10T08:00:00-03:00</dhEmi>
+        <dhSaiEnt>2024-06-10T08:00:00-03:00</dhSaiEnt>
+        <tpNF>0</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3550308</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>0</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>4.00</verProc>
+      </ide>
+      <emit>
+        <!-- CNPJ INVÁLIDO PROPOSITALMENTE: dígitos verificadores errados (00 no lugar de 61) -->
+        <CNPJ>11444777000100</CNPJ>
+        <xNome>FORNECEDOR SUSPEITO EIRELI</xNome>
+        <xFant>FORN SUSPEITO</xFant>
+        <enderEmit>
+          <xLgr>Rua Desconhecida</xLgr>
+          <nro>1</nro>
+          <xBairro>Sem Bairro</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>São Paulo</xMun>
+          <UF>SP</UF>
+          <CEP>00000000</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderEmit>
+        <IE>000000000000</IE>
+        <CRT>1</CRT>
+      </emit>
+      <dest>
+        <CNPJ>33000167000101</CNPJ>
+        <xNome>COMERCIO BETA ATACADO SA</xNome>
+        <enderDest>
+          <xLgr>Av. Brigadeiro Faria Lima</xLgr>
+          <nro>3477</nro>
+          <xBairro>Itaim Bibi</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>São Paulo</xMun>
+          <UF>SP</UF>
+          <CEP>04538133</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderDest>
+        <indIEDest>1</indIEDest>
+        <IE>987654321098</IE>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>ITEM-999</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>MERCADORIA GENERICA</xProd>
+          <NCM>39269090</NCM>
+          <CFOP>1102</CFOP>
+          <uCom>CX</uCom>
+          <qCom>100.0000</qCom>
+          <vUnCom>50.0000</vUnCom>
+          <vProd>5000.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>CX</uTrib>
+          <qTrib>100.0000</qTrib>
+          <vUnTrib>50.0000</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>5000.00</vBC>
+              <pICMS>12.00</pICMS>
+              <vICMS>600.00</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>5000.00</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>32.50</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>5000.00</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>150.00</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>5000.00</vBC>
+          <vICMS>600.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>5000.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>32.50</vPIS>
+          <vCOFINS>150.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>5000.00</vNF>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+    </infNFe>
+  </NFe>
+</nfeProc>
